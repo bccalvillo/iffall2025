@@ -1,0 +1,86 @@
+html {
+  color: rgb(0, 0, 0);
+  /*font-family: Open Sans, sans-serif */
+  font-family: Open Sans, sans-serif;
+  font-size: 12pt;
+  margin: 10%;
+}
+
+h1{
+    font-size: 24pt;
+}
+
+h2{
+    font-weight: 500;
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+}
+.titles{
+    line-height: 1.5rem;
+    font-weight: 200;
+}
+
+.one{
+    font-weight:100;
+    margin-bottom: 1rem;
+}
+
+.five{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.nine{
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.normal{
+    font-style:normal;
+    margin-bottom: 1rem;
+}
+
+.italic{
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.threerem{
+    letter-spacing: -.05em;
+    margin-bottom: 1rem;
+}
+
+.eightrem{
+    letter-spacing: 1em;
+    margin-bottom: 1rem;
+}
+
+.capitalize{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.lowercase{
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+}
+
+.linethrough{
+    text-decoration: line-through;
+    margin-bottom: 1rem;
+}
+
+.overline{
+    text-decoration: overline;
+    margin-bottom: 1rem;
+}
+
+.underline{
+    text-decoration:underline;
+    margin-bottom: 1rem;
+}
