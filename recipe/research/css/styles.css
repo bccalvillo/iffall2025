@@ -1,0 +1,12 @@
+html{
+    margin: 10%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 20%;
+}
+
+#images {
+    white-space: nowrap;
+}
