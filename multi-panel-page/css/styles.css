@@ -1,0 +1,176 @@
+body{
+    font-family: "Archivo Narrow", sans-serif;
+    font-optical-sizing: auto;
+    margin: auto;
+
+
+}
+
+h1{
+    margin: 0; 
+    font-size: 80px;
+}
+
+h2{
+    margin: 0;
+    font-size: 30px;
+    line-height: 115%;
+}
+
+h3{
+    margin:0;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 18px;
+
+}
+
+header{
+    text-align:center;
+    background-color: rgba(255,0,0,.3);
+    background-image: url("../images/drops.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 152px;
+    padding-bottom: 188px;
+    color: rgb(236, 236, 236);
+
+}
+
+
+.main-column{
+    background-color: rgb(218, 157, 157);
+    width: 960px;
+    margin: auto;
+}
+
+section.intro{
+    background-color: rgb(218, 157, 157);
+    padding-top: 38px;
+    padding-bottom: 60px;
+
+}
+
+.main-column > p{
+    margin-block: 0;
+    padding-top: 16px;
+    font-size:18px;
+    line-height: 25px;
+}
+
+.float{
+    width: 400px;
+    height: 300px;
+    float:right;
+    margin: 1rem 0rem 0rem 0rem;
+    padding-left: 2.8rem;
+    padding-bottom: 2rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+h4{
+    margin:0;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 160px 160px 160px;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 14px;
+    list-style-type: none;
+    padding-top: .4em;
+    
+}
+
+
+section.middle{
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 38px;
+
+}  
+.second{ 
+    margin:0;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+.middle{
+    background-color: rgb(0, 0, 0);
+    width: 960px;
+    margin: auto;
+}
+
+.pics img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+    float: left;
+
+}
+
+
+
+h5{
+    padding-left: 1rem;
+    margin: 0 0 .2em 0;
+    font-size: 20px;
+}
+
+li > p{
+    padding-top: .14em;;
+    margin:0 0 0 0;
+    font-size: 18px;
+}
+.end{
+    background-color: rgb(227, 255, 171);
+    padding-bottom:76px;
+}
+.ending{
+    width: 720px;
+    margin: auto;
+    background-color: rgba(227, 255, 171);
+}
+
+h6{
+    margin:0;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 6px;
+
+}
+.last{
+    font-size: 26px;
+    text-align: center;
+    line-height: 36px;
+}
+
+
+.foot{
+    background-color: rgb(255, 255, 255);
+    width: 960px;
+    margin:auto;
+    padding-top: 22px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
