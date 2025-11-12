@@ -1,0 +1,276 @@
+html{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fe91b1;
+}
+
+.header{
+    background-color:  #E54A79;  
+    margin: 0px;
+    padding: 0 15px 0 15px;
+    position: sticky;
+    top: 15px;
+    border-radius: 25px;
+}
+
+
+.nav {
+    padding: 0 15px 0 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: 50px;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    font-weight: 700;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li :hover {
+    color: #9f1d44;
+    border-radius: 25px;
+}
+
+
+.etude, .crown-one{
+    font-size: 40px;
+    padding-right: 60px;
+    color: #fe91b1;
+    justify-content: left;
+}
+
+.crown-one{
+    padding-top: 15px;
+    padding-right: 0;
+}
+
+.etude{
+    padding-left: 0;
+    padding-right: 650px;
+}
+
+.intro-image{
+    background-image: url("../images/intro girl.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px 50px 20px 50px;
+    padding: 200px;
+
+}
+
+
+
+.pics{
+    list-style: none;
+    padding-left: 0;
+    grid-template-columns: 150px 150px 150px 150px;
+    display: inline-flex;
+    column-gap: 60px;
+    list-style-type: none;
+    padding-top: .4em;
+    padding-bottom: 0;
+    border-radius: 25px;
+}
+
+.quote{ 
+    justify-content: center;
+    margin: auto;
+}
+#products{ 
+    padding-top: 10px;
+    padding-left: 16px;
+    background-color: #9f1d44;
+    border-radius: 5px;
+    color: #d6effc;
+}
+
+
+li > img{
+    border-radius: 25px 25px 0 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color:#FFEBF2;
+    width: 300px;
+    display: block;
+}
+
+h5{
+    width: 280px;
+    height: 40px;
+    left: 41px;
+    top: 1146px;
+    background: #FFEBF2;
+    border-radius: 0px 0px 50px 50px;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #E54A79;
+    font-size: 16px;
+}
+
+h5:hover{
+    color: #FFEBF2;
+    background-color: #E54A79;
+}
+
+
+.quote{
+    padding-bottom: 200px;
+    width: 1000px;
+}
+
+.image{
+    float: right;
+    width: 300px;
+    height: 600px;
+    background-image: url("../images/second.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.song{
+    font-size: 40px;
+    padding-top: 180px;
+    width: 650px;
+}
+
+.crown-two{
+    color: #E54A79;
+    font-size: 200px;
+}
+
+.soon-jung{
+    background-color: #d6effc;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.soon-jung > p{
+    font-size: 25px;
+    width: 2000px;
+    padding-top: 80px;
+}
+
+.skincare{
+    background-image: url("../images/tube.jpg");
+}
+
+.skincares{
+    background-image: url("../images/tubes.jpg");
+}
+.skincare, .skincares{
+    width: 1000px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about{
+    margin: 0;
+    background-color: #FFEBF2;
+    padding: 10px 0 10px 0;
+}
+
+.comes{
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.one, .two, .three, .four{
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 60px;
+    background-color: #E54A79;
+    color: #FFEBF2;
+    font-size: 20px;
+}
+
+.newsletter{
+    padding-right: 10px;
+}
+    
+
+
+.newsletter > .email{
+    border-radius: 20px;
+    background-color: #FFEBF2;
+    color: #E54A79;
+    padding: 15px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 140px;
+    font-size: 40px;
+}
+
+.contact{
+    padding-right: 140px;
+}
+
+
+
+
+/* gloss page*/
+
+.glosses{
+    list-style: none;
+    display: inline-flex;
+    column-gap: 60px;
+    list-style-type: none;
+    padding-top: .4em;
+    padding-bottom: 0;
+}
+
+/* palette page */
+
+.palettes{
+    list-style: none;
+    display: inline-flex;
+    column-gap: 60px;
+    list-style-type: none;
+    padding-top: .4em;
+    padding-bottom: 0;
+}
+
+/* powder page */
+
+.blushes{
+    list-style: none;
+    display: inline-flex;
+    column-gap: 60px;
+    list-style-type: none;
+    padding-top: .4em;
+    padding-bottom: 0;
+}
+
+/* markerpage */
+
+.markers{
+    list-style: none;
+    display: inline-flex;
+    column-gap: 60px;
+    list-style-type: none;
+    padding-top: .4em;
+    padding-bottom: 0;
+}
